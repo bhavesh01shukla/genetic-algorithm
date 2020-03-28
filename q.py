@@ -7,7 +7,7 @@ def create_new_pop(fitness_list):
 	fitness_list=sorted(fitness_list,key = lambda x: x[1])
 	new_pop=numpy.zeros(pop_size)
 	
-	### now copy top 5(leat fitness value is desired) from fitness_list[2] i.e. chromosome into new_pop numpy array
+	### now select 5 from fitness_list[2] using probability i.e. chromosome into new_pop numpy array
 	### use these 5 to create 20 chromosomes using  cross over and mutation 
 	return new_pop
 
