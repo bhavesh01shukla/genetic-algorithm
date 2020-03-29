@@ -3,6 +3,12 @@ ALWAYS USE VPN WHILE RUNNING CODE ON SERVER
 * client_moodle.py is the connection file
 * q.py is the main code
 * overfit.txt is the sample weight to check connection and gives optimal (here least) error
+* outputs_correct is the file where outputs of the code is redirected and stored. 
+  We will nned to find lowest error from all the outputs when the code was executed.
+  You can make a file where you store the weights vector corresponding to the lowest error we get for every execution of th code and update that file during every execution of the code.
+
+ $$$ This weight vector needs to be submitted $$$$ 
+ 
 * rough1.txt is just a file used for testing basic python functions. It has no use here
 * error for each chromosome/solution , initial pop, new pop are printed for each iteration
  => EX:
